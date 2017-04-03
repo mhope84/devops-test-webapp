@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "tape message.test.js"
+    "test": "node index.test.js"
   },
   "author": "Sam Clement",
   "license": "ISC",

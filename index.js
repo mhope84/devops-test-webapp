@@ -1,9 +1,8 @@
 var os = require('os')
 var http = require('http')
-var message = require('./message')
 
 function handleRequest(req, res) {
-  res.write(message.getMessage())
+  res.write('Hi there! I\'m being served from ' + os.hostname())
   res.end()
 }
 
