@@ -1,4 +1,9 @@
-## Running this web application
+# DevOps Test Webapp
+
+Runs on port 3000 and responds with the server hostname.
+
+
+## To run:
 
 This is a NodeJS application:
 
